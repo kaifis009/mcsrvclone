@@ -6,4 +6,4 @@ cd ..
 mkdir -p server
 cd server
 
-sudo wget "https://git.magmafoundation.org/api/v4/projects/103/packages/maven/org/magmafoundation/Magma/1.19.3-44.1.23-ef6188f2/Magma-1.19.3-44.1.23-ef6188f2-server.jar" -o server.jar
+sudo wget "https://objects.githubusercontent.com/github-production-release-asset-2e65be/262540883/0f5296e2-9db7-4b23-966b-8a9c87244c9a?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20230703%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230703T055601Z&X-Amz-Expires=300&X-Amz-Signature=7b497b61b492b64c52e7b40b0740bf070e017a65275f99378fbd96bb9c19d469&X-Amz-SignedHeaders=host&actor_id=91021142&key_id=0&repo_id=262540883&response-content-disposition=attachment%3B%20filename%3Darclight-forge-1.19.4-1.0.5.jar&response-content-type=application%2Foctet-stream" -o server.jar
