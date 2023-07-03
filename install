@@ -18,6 +18,7 @@ echo "> Extracting Java JDK 16 to the bin/ folder. [THIS MAY TAKE SOME TIME] Rep
 tar -xf java.tar.xz && mv "jdk-17.0.1" java_bins
 
 cd $MAIN_DIR
+sudo apt install python3-pip
 # If choice is 0 or null then run this command
 if [[ -z $choiceForServer ]]; then
 
